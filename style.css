@@ -509,6 +509,134 @@ input::placeholder {
     opacity: 1;
 }
 
+.story {
+    width: 100%;
+    padding: 120px 0;
+    position: absolute;
+    left: 0;
+    top: 4600px;
+}
+
+.story-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.story-label {
+    display: block;
+    color: #00d084;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.story-head{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.story-description {
+    font-size: 16px;
+    font-weight: 600;
+    color:#a9aeb3;
+    line-height: 1.2;
+    margin-bottom: 80px;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story-flex {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.story-card {
+    flex: 0 0 360px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.story-card:hover {
+    opacity: 0.8;
+}
+
+.story-image {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.story-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.story-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 180px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.story-text {
+    font-size: 15px;
+    color: #bbbaba;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    text-align: left;
+    min-height: 60px;
+}
+
+.story-link {
+    display: inline-flex;
+    align-items: center;
+    color: #bbbaba;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+}
+
+.story-link:hover {
+    color: #00d084;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.arrow-left, .arrow-right{
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 8px 8px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 0.6;
+}
 
 
 .final {
@@ -517,7 +645,7 @@ input::placeholder {
     padding: 60px 20px;
     text-align: center;
     position: absolute;
-    top: 4600px;
+    top: 5400px;
 }
 
 .final-head {
@@ -628,7 +756,7 @@ input::placeholder {
     color: #e5e5e5;
     padding-top: 32px ;
     position:absolute;
-    top:5600px;
+    top:6400px;
     left: 250px;
     right: 250px;
     border: 1px solid #2a2a2a;
